@@ -1,5 +1,7 @@
 # JavaScript-Random-Password-Generator
 
+# Description:
+
 A simple random password generator made using HTML, CSS, and JavaScript.
 
 # Planning Notes:
@@ -14,11 +16,15 @@ At least one of the character type prompts has to be selected, as well as the pa
 
 The password is then created and displayed in an alert or written to the page.
 
-# Description:
-
 # Screenshots:
 
+![Screenshot1](./Screenshots/Screenshot%202022-06-01%20151041.jpg)
+![Screenshot2](./Screenshots/Screenshot%202022-06-01%20151119.jpg)
+
 # Links:
+
+GitHub repo: https://github.com/NessJade96/JavaScript-Random-Password-Generator
+Deploy: https://nessjade96.github.io/JavaScript-Random-Password-Generator/
 
 # Commit notes:
 
@@ -28,103 +34,5 @@ Created repo on Gibhub, then copied the supplied HTML, CSS, and Javascript files
 Commit 2:
 Using the provided script.js code, I am creating a generatePassword function to start the prompts - within this function it will call the getPasswordLength function to return the value of the password length. Then I have created confirm prompts for the Special characters to return a true or false value and so on for each of the passwords criteria.
 
-//Array of special chartacters
-var specialCharacters = [
-'@',
-'%',
-'+',
-'\\',
-'/',
-"'",
-'!',
-'#',
-'$',
-'^',
-'?',
-':',
-',',
-')',
-'(',
-'}',
-'{',
-']',
-'[',
-'~',
-'-',
-'_',
-'.'
-];
-​
-// Array of numeric characters
-var numericCharacters = [
-'0',
-'1',
-'2',
-'3',
-'4',
-'5',
-'6',
-'7',
-'8',
-'9'
-];
-​
-// Array of lowercase characters
-var lowerCasedCharacters = [
-'a',
-'b',
-'c',
-'d',
-'e',
-'f',
-'g',
-'h',
-'i',
-'j',
-'k',
-'l',
-'m',
-'n',
-'o',
-'p',
-'q',
-'r',
-'s',
-'t',
-'u',
-'v',
-'w',
-'x',
-'y',
-'z'
-];
-​
-// Array of uppercase characters
-var upperCasedCharacters = [
-'A',
-'B',
-'C',
-'D',
-'E',
-'F',
-'G',
-'H',
-'I',
-'J',
-'K',
-'L',
-'M',
-'N',
-'O',
-'P',
-'Q',
-'R',
-'S',
-'T',
-'U',
-'V',
-'W',
-'X',
-'Y',
-'Z'
-];
+Commit 3:
+Creating a for loop that takes in the values of the true/false from the passwordValues prompts - that tests if it is upper, lower, number, or special. If it is any of those values then it will input one element from the array at random. This will return a randomly generated password with the selected criteria. Added in screenshots and links :)
